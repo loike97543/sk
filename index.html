@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shema Koleinu - MTA Divrei Torah</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="hello">This is the Shema Koleinu webpage where you can find our weekly articles as well as articles from the past</h1>
+        <h2 id="find">To find a parsha enter the parsha name and everything we have on that parsha will come up</h2>
+        <form id="the">
+            <!--<label for="text">Type in your name:</label><br><br>-->
+            <input onkeyup="important()" type="text" id="text" name="text" placeholder="Please enter a parsha e.g. vayeshev">
+            </form>
+            <button id="button" onclick="rps()">submit</button>
+        </div><br>
+    
+        <a id="parsha" href="" target="_blank"></a>
+        <div id="logo"></div>
+        <script javascript/text>
+   
+                function rps(){  
+                    var name = document.getElementById('text').value;
+             if (name === "chukas" || name === "chukat" || name === "Chukat" || name === "Chukas") {
+         document.getElementById("hello").innerHTML = "Parshas Chukas";
+         document.getElementById("find").innerHTML = "This is Parshas Chukas, click on the link to see the PDF with our weekly divrei torah";
+         document.getElementById("parsha").href = "Chukas 5781.pdf";
+         document.getElementById("parsha").innerHTML = "Parshas Chukas PDF 5781";
+        }
+        if (name === "Yisro" || name === "Yitro" || name === "yisro" || name === "yitro" || name === "jethro") {
+         document.getElementById("hello").innerHTML = "Parshas Yisro";
+         document.getElementById("find").innerHTML = "This is Parshas Yisro, click on the link to see the PDF with our weekly divrei torah";
+         document.getElementById("parsha").href = "Yisro 5781.pdf";
+         document.getElementById("parsha").innerHTML = "Parshas Yisro PDF 5781";
+        }
+        if (name === "Mishpatim" || name === "mishpatim") {
+         document.getElementById("hello").innerHTML = "Parshas Mishpatim";
+         document.getElementById("find").innerHTML = "This is Parshas Mishpatim, click on the link to see the PDF with our weekly divrei torah";
+         document.getElementById("parsha").href = "Mishpatim 5781.pdf";
+         document.getElementById("parsha").innerHTML = "Parshas Mishpatim PDF 5781";
+        }
+        if (name === "Terumah" || name === "terumah" || name === "Trumah" || name === "trumah") {
+         document.getElementById("hello").innerHTML = "Parshas Terumah";
+         document.getElementById("find").innerHTML = "This is Parshas Terumah, click on the link to see the PDF with our weekly divrei torah";
+         document.getElementById("parsha").href = "Terumah 5781.pdf";
+         document.getElementById("parsha").innerHTML = "Parshas Terumah PDF 5781";
+        }
+
+                }
+      function important(){
+        var name = document.getElementById('text').value;
+        rps()
+        console.log(name)
+      }
+    
+     
+
+      </script>
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-color:#325A89;
+    color: white;
+    margin-left: 10px;
+
+}
+#logo {
+    background-image: url('mta-logo.jpg');
+
+
+ 
+}
+#text {
+    border: none;
+    border-bottom: 2px solid red;
+    width: 30%;
+    height: 40px;
+    font-size: x-large;
+    transition: width 0.4s ease-in-out;
+  }
+  #text:focus{
+      width:100%;
+  }
+  #button{
+  border: none;
+  background-color: white;
+  color:#325A89;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  #parsha {
+    top:0;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 5px;
+    border-bottom: 4px;
+    background: size left 100%; ;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 0px;
+    position: sticky;
+    color: white;
+    border-style:solid;
+    background-color: transparent;
+    border-color:transparent;
+    text-decoration: underline;
+  }
