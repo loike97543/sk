@@ -2,13 +2,23 @@ body {
     background-color:#325A89;
     color: white;
     margin-left: 10px;
+    width: 100%;
 
 }
 #logo {
-    background-image: url('mta-logo.jpg');
+    background-image: url(Night-Seder-Pics.jpg);
+    width: 100%;
+    height: 720px;
+    background-repeat: no-repeat;
+   background-position: right;
 
 
  
+}
+#other {
+    float:left;
+    width: 30%;
+    height: 720px;
 }
 #text {
     border: none;
